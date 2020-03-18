@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize app</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!--<div class="containerTimer">
+        <h1>Countdown to finish Quiz</h1>
+        <ul>
+            <li>
+                <span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+        </ul>
+    </div>-->
+
+    <div class="container">
+        <div class="clearfix">
+            <div class="card">
+                <h2>Sign Up</h2>
+                <form method="POST">
+                    <div class="input-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Jane" />
+                    </div>
+                    <div class="input-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Doe" />
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div id="txt"></div>
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-button" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+            <button id="end-btn" class="end-btn btn hide">Quiz Over</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
