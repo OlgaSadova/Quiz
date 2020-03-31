@@ -4,3 +4,4 @@ This is an example of Quiz:
 - upon clicking "Next" button, another question gets presented
 - when Quiz ends or timer expire the final score is presented 
 
+https://olgasadova.github.io/Quiz/
